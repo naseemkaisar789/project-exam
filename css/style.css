@@ -1,0 +1,336 @@
+/*common start*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*common end*/
+/*navbar start*/
+.custom_nav{
+	margin: 15px 0;
+}
+.navbar-brand{
+	font-size: 30px;
+	color: black;
+	font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+	color: #0000FF;
+}
+.nav-link{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: black;
+	font-family: 'Rubik', sans-serif;
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color: #0000FF;
+}
+.search{
+	height: 40px;
+	width: 80%;
+	border-radius: 60px;
+	margin-right: -35px;
+	outline: none;
+	font-family: 'Rubik', sans-serif;
+	border:2px solid #ffd60a;
+}
+
+.btn0{
+	height: 40px;
+	width: 40%;
+	outline: none;
+	border: none;
+	border-radius: 60px;
+	background: #ffd60a;
+	color:white;
+	font-weight: 700;
+	transition: .3s;
+}
+.btn0:hover{
+	background-color: #fb5607;
+}
+/*navbar end*/
+/*banner section start*/
+.main{
+	background: url(../images/halal.jpg) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 100vh;
+	width: 100%;
+}
+.banner_text{
+	margin-top: 100px;
+}
+.banner_text h1{
+	font-size: 64px;
+	font-weight: 700;
+}
+.btn1{
+	margin-top: 20px;
+	height: 45px;
+	width: 35%;
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	background-color:#ffd60a;
+	border-radius: 60px;
+	transition: .3s;
+}
+.btn1:hover{
+	background-color: #fb5607;
+}
+/*banner section end*/
+/*feature part start*/
+.feature{
+	margin-top: 100px;
+}
+/*feature part end*/
+/*product section start*/
+.product_part{
+
+}
+.product_part h1{
+	font-family:'Rubik', sans-serif;
+	font-weight: 700;
+}
+.product_part h6{
+  font-weight: 700;
+  color:#fb5607;
+}
+.pd_second{
+	margin-top: 50px;
+}
+.btn2{
+	height: 45px;
+	width: 35%;
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	background-color:#ffd60a;
+	border-radius: 60px;
+	transition: .3s;
+}
+.btn2:hover{
+	background-color: #fb5607;
+}
+.about{
+	background-color: #F8F8F8;
+}
+.product_part_two {
+    margin-bottom: 25px;
+}
+.product_part_two h1{
+font-family:'Rubik', sans-serif;
+	font-weight: 700;
+}
+.product_part_two h6{
+	font-weight: 700;
+	color: #fb5607;
+}
+.card:hover{
+	box-shadow: -2px 0px 27px -6px rgba(0,0,0,1.2);
+-webkit-box-shadow: -2px 0px 27px -6px rgba(0,0,0,1.2);
+-moz-box-shadow: -2px 0px 27px -6px rgba(0,0,0,1.2);
+transition: .5s;
+cursor: pointer;
+}
+
+
+/*product section end*/
+/*about css start*/
+.about{
+	padding: 50px 0;
+}
+.last_text{
+	margin-top: 30px;
+}
+.last_text h5{
+font-family:'Rubik', sans-serif;
+font-size: 25px;
+font-weight: 700;
+}
+.last_text p{
+	font-size: 16px;
+  
+}
+/*about css end*/
+/*Explore section start*/
+.explore_shop{
+	margin-top: 50px;
+}
+.product_part_three{}
+.product_part_three h1{
+	font-family:'Rubik', sans-serif;
+	font-weight: 700;
+}
+.product_part_three h6{
+	font-weight:700;
+	color: #fb5607;
+}
+/*Explore section end*/
+/*last pine  start*/
+.btn3{
+	height: 45px;
+	width: 35%;
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	background-color:#ee9b00;
+	border-radius: 60px;
+	transition: .3s;
+}
+.btn3:hover{
+	background: #fb5607;
+}
+.pine{
+	background: linear-gradient rgba(0,0,0,0.2), rgba(0,0,0,0.2);
+	background: url(../images/store.jpg) no-repeat;  
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	width: 100%;
+	margin-top: 70px;
+}
+.pine_text{
+  margin-top: 100px;
+  font color: #000000 important;
+}
+.pine_text h1{
+	font-family: 'Lobster', cursive;
+	font-weight: 700;
+	font-size: 50px;
+	
+}
+.pine_text h6{
+	font-family: 'Lobster', cursive;
+	font-weight: 700;
+	font-size: 18px;
+
+}
+.btn3_ftr{
+	margin-top: 30px;
+   height: 40px;
+	width: 35%;
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	background-color:#FFD60A;
+	border-radius: 60px;
+	transition: .3s;
+}
+.btn3_ftr:hover{
+  background: #fb5607;
+}
+
+/*last pine  end*/
+/*contact start*/
+.contact{
+	background-color:#F8F8F8;
+}
+.contact_text{}
+.contact_text h1{
+	font-family:'Rubik', sans-serif;
+	font-weight: 700;
+}
+.contact_text h6{
+	font-weight:700;
+	color: #fb5607;
+}
+.contact_address p a{
+	text-decoration: none;
+	color:#303841;
+}
+
+/*contact end*/
+/*bottom footer start*/
+.btm_footer{
+	padding: 40px 0;
+  background-color: black;
+  color: white;
+}
+.btm_footer p{
+	margin: 0;
+}
+.btm_text{
+	color: #ffd60a;
+	font-weight: 700;
+}
+.btn4{
+	height: 46px;
+	width: 100px;
+	color: white;
+	background-color:#FFD60A;
+	margin-left: -10px;
+	border: none;
+	font-weight: 600;
+	transition: .3s;
+}
+.btn4:hover{
+	color: white;
+ background: #FB5607;
+ border: 2px solid #FB5607;
+}
+.btn5{
+	    margin-top: 30px;
+    height: 35px;
+    width: 35%;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FFD60A;
+    border-radius: 60px;
+    transition: .3s;
+}
+.btn5:hover{
+	background: #FB5607;
+}
+.btm_footer input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid #ffd60a;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.btm_footer:placeholder{
+	color: white;
+}
+.last_bio p{
+  margin-top: 10px;
+}
+.last_bio:hover{
+color: #00FFFF;
+transition: .5s;
+
+}
+
+.fab{
+	font-size: 2.5rem;
+	cursor: pointer;
+	padding: 0 5px;
+	transition: .4s;
+}
+.fab:hover{
+	transform: scale(2.0);
+color:#ffd60a;
+}
+.ftr_end{
+		margin-top: 40px;
+}
+/*bottom footer end*/

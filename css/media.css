@@ -1,0 +1,274 @@
+X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+ /*nav start*/
+.nav-link{
+    text-align: center;
+}
+.c_form {
+    margin-left: 0px;
+    text-align: center;
+}
+ /*nav end*/   
+/*banner css start*/
+.main{
+    height: 80vh;
+    width: 100%;
+}
+.banner_text {
+    margin-top: 40px;
+    margin-left: -51px;
+}
+.main h1 {
+    font-size: 26px;
+    margin-right: 56px;
+    padding: 10px 46px;
+}
+
+.btn1 {
+    margin-right: 65px;
+    height: 24px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+/*banner css end*/
+/*about part start*/
+.cstm_about{
+    margin-bottom: 35px;
+}
+.last_text{
+    margin-top: -7px;
+}
+.btn2 {
+    height: 40px;
+    width: 53%;
+   font-size: 17px;
+
+}
+/*about part end*/
+/*testimonial start*/
+.testimonial {
+    margin-bottom: 30px;
+}
+/*testimonial end*/
+/*pineapple part start*/
+.pine_text {
+    margin-top: 97px;
+}
+.pine_text h1 {
+    font-size: 30px;
+}
+.btn3_ftr {
+    margin-top: 18px;
+    height: 30px;
+    width: 40%;
+    font-size: 15px;
+}
+/*pineapple part end*/
+/*contact start*/
+.btn5{
+    margin-left: 100px;
+}
+/*contact end*/
+/*btm_footer start*/
+.fab {
+    font-size: 30px;
+}
+.last_bio{
+    text-align: center;
+}
+
+/*btm_footer end*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*nav start*/
+.nav-link{
+    text-align: center;
+}
+.c_form {
+    margin-left: 106px;
+    text-align: center;
+}
+.btn0 {
+    height: 40px;
+    width: 26%;
+  
+  
+}
+.search {
+    height: 40px;
+    width: 62%;
+    margin-right: -40px;
+
+}
+
+ /*nav end*/  
+
+
+/*banner css start*/
+.banner_text h1 {
+    font-size: 34px;
+    margin-right: 0px;
+    padding: 10px 18px;
+}
+
+.banner_text {
+    margin-top: 40px;
+    margin-left: -5px;
+}
+.btn1 {
+    margin-right: 13px;
+    margin-top: 20px;
+    height: 32px;
+    width: 48%;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+/*banner css end*/
+/*about part start*/
+.cstm_about{
+    margin-bottom: 35px;
+}
+.last_text{
+    margin-top: -7px;
+}
+.btn2 {
+    height: 43px;
+    margin-top: -25px;
+}
+/*about part end*/
+/*pineapple part start*/
+.pine_text {
+    margin-top: 60px;
+}
+.pine_text h1 {
+    font-size: 45px;
+}
+.btn3_ftr {
+    margin-top: 18px;
+    height: 40px;
+    width: 30%;
+    font-size: 18px;
+
+}
+/*pineapple part end*/
+/*btm_footer start*/
+.last_bio{
+    text-align: center;
+}
+.btm_footer{
+    margin-top: -50px;
+}
+/*btm footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991.98px) {
+   /*nav start*/
+.nav-link{
+    text-align: center;
+}
+.c_form {
+    margin-left: 106px;
+    text-align: center;
+}
+.btn0 {
+    height: 40px;
+    width: 26%;
+  
+  
+}
+.search {
+    height: 40px;
+    width: 62%;
+    margin-right: -40px;
+
+}
+
+    /*nav end*/  
+   /*banner css start*/
+   .banner_text {
+    margin-top: 50px;
+}
+.main h1 {
+    font-size: 50px;
+    
+}
+.btn1 {
+    margin-top: 20px;
+    height: 34px;
+    font-size: 16px;
+  
+}
+/*banner css end*/
+/*about part start*/
+.btn2 {
+    height: 45px;
+    width: 25%;
+   
+}
+/*about part end*/
+/*pineapple start*/
+.pine_text {
+    margin-top: 60px;
+}
+.btn3_ftr {
+    margin-top: 16px;
+    height: 40px;
+    width: 24%;
+}
+/*pineapple end*/
+/*btm_footer start*/
+.fab {
+    font-size: 22px;
+    padding: 0 5px;    
+}
+/*btm_footer start*/
+ }
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner css start*/
+.main h1 {
+    font-size: 58px;
+    font-weight: 700;
+}
+.banner_text {
+    margin-top: 50px;
+}
+
+/*banner css end*/
+  /*last apple start*/ 
+  .pine_text {
+    margin-top: 60px;
+}
+ /*last apple end*/ 
+ /*btm footer start*/
+ .fab {
+    font-size: 36px;
+}
+ /*btm footer end*/
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /*banner part start*/
+.banner_text {
+    margin-top: 50px;
+}
+  /*banner part end*/
+   /*last apple start*/ 
+  .pine_text {
+    margin-top: 60px;
+}
+ /*last apple end*/ 
+
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+ }
